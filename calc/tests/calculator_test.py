@@ -40,3 +40,4 @@ def test_calculator_divide_static(clear_history_fixture):
     Calculator.divide_numbers(my_tuple)
     assert Calculator.get_last_result_value() == 2.0
 
+
