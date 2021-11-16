@@ -1,21 +1,23 @@
-"""Division Class"""
+"""Division Class - with exceptions for 3 errors"""
 from calc.calculations.calculation import Calculation
 
 class Division(Calculation):
     """division calculation object"""
     def get_result(self):
         """get the division results"""
-        value_list = []
+        list_div = []
         for value in self.values:
-            value_list.append(value)
-        result = value_list[0]
-        for num in range(1, len(value_list)):
+            list_div.append(value)
+        result = list_div[0]
+        for num in range(1, len(list_div)):
             try:
-                result /= value_list[num]
-            except ValueError as ert:
-                raise ValueError from ert
-            except ZeroDivisionError as era:
-                raise ZeroDivisionError from era
+                result /= list_div[num]
+            except ValueError as error1:
+                raise ValueError from error1
+            except ZeroDivisionError as error2:
+                raise ZeroDivisionError from error2
+            except IndexError as error3:
+                raise IndexError from error3
             else:
                 continue
         return result

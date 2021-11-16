@@ -10,3 +10,10 @@ def test_calculation_subtraction():
     # Act
     # Assert
     assert division.get_result() == 4.0
+
+def zerodivisionerror_test():
+    """This shows when divided by 0 there will be an error that happens"""
+    nums = (12.0,0.0)
+    era_test = Division(nums)
+
+
