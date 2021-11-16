@@ -10,4 +10,3 @@ def test_calculation_subtraction():
     # Act
     # Assert
     assert division.get_result() == 4.0
-
