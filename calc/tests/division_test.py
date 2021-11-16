@@ -1,4 +1,3 @@
-
 """Testing Division"""
 from calc.calculations.division import Division
 

@@ -1,8 +1,8 @@
 """Calculation history Class"""
-from calculator.calculations.addition import Addition
-from calculator.calculations.subtraction import Subtraction
-from calculator.calculations.multiplication import Multiplication
-from calculator.calculations.division import Division
+from calc.calculations.addition import Addition
+from calc.calculations.subtraction import Subtraction
+from calc.calculations.multiplication import Multiplication
+from calc.calculations.division import Division
 class Calculations:
     """Calculations class manages the history of calculations"""
     history = []
