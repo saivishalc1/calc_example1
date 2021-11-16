@@ -1,12 +1,11 @@
-"""Testing Subtraction"""
+"""Testing Multiplication"""
 from calc.calculations.multiplication import Multiplication
 
-
-def test_calculation_multiplication():
-    """testing that our calculator has a static method for addition"""
-    # Arrange
-    mynumbers = (1.0, 2.0)
-    multiplication = Multiplication(mynumbers)
-    # Act
-    # Assert
-    assert multiplication.get_result() == 2.0
+def test_calculation_subtraction():
+    """testing that our calculator has a static method for multiplication"""
+    #Arrange
+    nums = (4.0,2.0)
+    multiplication = Multiplication(nums)
+    #Act
+    #Assert
+    assert multiplication.get_result() == 8.0
