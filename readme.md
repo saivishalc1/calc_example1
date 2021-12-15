@@ -9,4 +9,8 @@ Pytest + Pylint Test: (Travis would not let me restart my build and asked for mo
 
 <img width="1680" alt="Screen Shot 2021-12-14 at 5 02 29 PM" src="https://user-images.githubusercontent.com/72717890/146086971-f6eb4a84-27b5-408b-9564-6caac5f627cc.png">
 
+<img width="1680" alt="Screen Shot 2021-12-15 at 4 10 23 AM" src="https://user-images.githubusercontent.com/72717890/146249932-8348dcdd-b09d-4f54-be9b-645e8052341e.png">
+
+
 Video for Project 3:
+To be placed soon
